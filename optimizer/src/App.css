@@ -48,6 +48,8 @@ form{
 
 /* login css */
 .login-form{
+  font-size: 0.8rem;
+  /* text-align: left; */
   /* display: flex;
   width: 50%;
   flex-direction: column;
@@ -80,6 +82,7 @@ form{
 .add-property-form{
    /* temp */
   margin-top: 5%;
+  font-size: 0.8rem;
 }
 
 .add-property-form input{
@@ -96,3 +99,77 @@ form{
 
   color: white;
   font-family: Raleway;}
+
+
+  #fieldset{
+    background-color: blue;
+
+  }
+
+  .add-property-form .address-and-city{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 80%;
+  }
+
+.state-and-zipcode{
+  display: flex;
+  width: 80%;
+}
+
+  .us-states{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: none;
+    border-radius: 15px;
+    width: 100%;
+  }
+
+  .zipcode{
+    margin-top: 1.5%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .beds-bedrooms-kitchen{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 90%;
+    margin-left: 10%;
+  
+  }
+
+  .beds{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  .beds input{
+    width: 40%;
+  }
+
+  .bedrooms{
+    width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  .bedrooms input{
+    width: 80%;
+  }
+
+  .kitchen{
+    width: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kitchen input{
+    width: 30%;
+  }
