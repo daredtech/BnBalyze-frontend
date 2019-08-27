@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import axios from 'axios';
-import './login.css';
+import { Link } from 'react-router-dom';
 
 
 export default function Login () {
@@ -51,8 +51,9 @@ export default function Login () {
             <input type='password' name='password' value={credentials.password} onChange={handleChange} />
 
             {/* link to signup */}
-            <button> <h3> No Account? Sign Up </h3> </button>
-            
+            <button> Log In </button>
+            <p> Have an Account?  <Link to="/signin">Sign In</Link></p>
+
             
         </form>
     )

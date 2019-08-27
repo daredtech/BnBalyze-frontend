@@ -24,7 +24,7 @@ export default function AddPropertyForm() {
         <form className='add-property-form'>
             <h3> Add a Property </h3>
 
-            <div className='address-and-city'> 
+            {/* <div className='address-and-city'>  */}
 
             Street Address
             <input type='address' name='address' value={propertyValues.address} onChange={handleChange} />
@@ -32,10 +32,10 @@ export default function AddPropertyForm() {
             City
             <input type='text' name='city' value={propertyValues.city} onChange={handleChange} />
             
-            </div>
+            {/* </div> */}
 
 
-            <div className='state-and-zipcode'> 
+            {/* <div className='state-and-zipcode'>  */}
              {/* State
             <input type='text' name='state' value={propertyValues.state} onChange={handleChange} /> */}
 
@@ -97,37 +97,33 @@ export default function AddPropertyForm() {
             </fieldset>
 
             
-            <div className='zipcode'>  Zip Code
+            {/* <div className='zipcode'>   */}
+            Zip Code
             <input type='number' name='zipcode' value={propertyValues.zipcode} onChange={handleChange} />
-            </div>
-            
-            </div> 
 
-            <div className='beds-bedrooms-kitchen'> 
-            <div className='beds'> 
+            {/* </div> */}
+            
+            {/* // </div>  */}
+
+            {/* <div className='beds-bedrooms-kitchen'> 
+            <div className='beds'>  */}
             # of Beds
             <input type='number' name='beds' value={propertyValues.beds} onChange={handleChange} />
-            </div>
+            {/* </div>
       
-            <div className='bedrooms'> 
+            <div className='bedrooms'>  */}
             # of Bedrooms
             <input type='number' name='bedrooms' value={propertyValues.bedrooms} onChange={handleChange} />
-            </div>
+            {/* </div>
 
-            <div className='kitchen'> 
+            <div className='kitchen'>  */}
             Kitchen
             <input type='boolean' name='kitchen' value={propertyValues.kitchen} onChange={handleChange} />
-            </div>
+            {/* </div>
             
-            </div>
+            </div> */}
 
-           
-
-
-            <button> <h3> Add </h3> </button>
-
-
-
+            <button> Add </button>
         </form>
     )
 }
