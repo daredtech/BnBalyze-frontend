@@ -33,8 +33,7 @@
 }
 
 
-/* Login css */
-.login-form{
+form{
   display: flex;
   width: 50%;
   flex-direction: column;
@@ -44,18 +43,56 @@
   background-color: #FF5A5F;
   color: white;
   font-family: Raleway;
+
+}
+
+/* login css */
+.login-form{
+  /* display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ 
+  background-color: #FF5A5F;
+  color: white;
+  font-family: Raleway; */
 }
 
 .login-form input{
   box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
   border-radius: 12px;
+  outline-color: orange;
 }
 
 .login-form button{
+  outline: none;
+
   background-color: #FF5A5F;
   border: none;
-  width: 7rem;
+  width: 100%;
 
   color: white;
   font-family: Raleway;
 }
+
+/* add-property-form css */
+.add-property-form{
+   /* temp */
+  margin-top: 5%;
+}
+
+.add-property-form input{
+  box-shadow: 0px 4px 22px rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+  outline-color: orange;
+}
+
+.add-property-form button {  outline: none;
+
+  background-color: #FF5A5F;
+  border: none;
+  width: 100%;
+
+  color: white;
+  font-family: Raleway;}
