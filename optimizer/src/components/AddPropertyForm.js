@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import { Dropdown } from 'semantic-ui-react';
 
 export default function AddPropertyForm() {
 
@@ -6,11 +7,7 @@ export default function AddPropertyForm() {
     const [propertyValues, setPropertyValues] = useState ({address: '', city: '', state: '', zipcode: '', bedrooms: '', beds: '', kitchen: ''});
 
     // to hold US states
-    const options = [
-        // ...
-        { value: 'Stanford University', label: 'Stanford' },
-        // ...
-    ];
+
 
     // to update the state as values change
     const handleChange = event => {

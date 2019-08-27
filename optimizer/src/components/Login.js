@@ -30,6 +30,7 @@ export default function Login () {
             localStorage.setItem('token', response.data.token);
 
             // redirect to welcome page
+            // props.history.push('/welcome');
 
         })
         // to log the error if request fails
